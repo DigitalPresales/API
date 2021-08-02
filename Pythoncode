@@ -1,0 +1,8 @@
+import flask //you can import this library from pycharm--> preference option. For more info , refer to cloud computing video on how to import libraries in the code
+from flask import request, jsonify 
+
+app = flask.Flask(__name__)
+app.config["DEBUG"] = True 
+
+medical_data 
+
