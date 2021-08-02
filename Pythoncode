@@ -22,4 +22,13 @@ medical_data = [
    'Location' : '520N Kingsbury St, IL',
    'Phone : '+1 312-929-4492' }
 
-#app.route
+@app.route('/', methods=['GET'])
+def home():
+  return "Welcome to the telehealth App - This is a patient view"
+  
+@app.route('/get_me_top4_physicians', methods=['GET'])
+def api_all():
+ return jsonify(medical_data)
+ 
+ 
+ app_run()
