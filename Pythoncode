@@ -4,5 +4,22 @@ from flask import request, jsonify
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True 
 
-medical_data 
+medical_data = [ 
+ { 'id' = 1, 
+   'Name' = 'Bucktown Foot and Ankle Clinic: Paras Pare',
+   'Location' : 'Chicago, IL',
+   'Phone : '(312)493-3114' },
+ { 'id' = 2, 
+   'Name' = 'Baubly Medical',
+   'Location' : 'Elmhurst, IL',
+   'Phone : '(630) 595-9988' },
+ { 'id' = 3, 
+   'Name' = 'Dr. Joshua R Merok, MD, MBA',
+   'Location' : 'Smurfit-Stone Bldg, 180N Michigan Ave #1720, IL',
+   'Phone : '+1 312-201-1234' },
+ { 'id' = 4, 
+   'Name' = 'Chicago Express Doctor',
+   'Location' : '520N Kingsbury St, IL',
+   'Phone : '+1 312-929-4492' }
 
+#app.route
