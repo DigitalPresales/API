@@ -30,5 +30,4 @@ def home():
 def api_all():
  return jsonify(medical_data)
  
- 
- app_run()
+app_run()
